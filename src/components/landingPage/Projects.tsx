@@ -1,4 +1,5 @@
 import { projects } from "../../constants/data";
+import Button from "../Button";
 
 type Data = {
   id: string;
@@ -29,11 +30,15 @@ const ProjectCard = ({ data }: { data: Data }) => {
 
 function Projects() {
   return (
-    <div className="flex flex-col justify-center place-items-center px-16 bg-white py-8">
+    <div className="flex flex-col justify-center place-items-center px-16 bg-lightWhite py-8">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-[8rem]">
         <ProjectCard data={projects[0]} />
         <ProjectCard data={projects[1]} />
       </div>
+      <div className="pt-8 md:pt-[8rem]">
+        <ProjectCard data={projects[2]} />
+      </div>
+      <Button text="View all projects"/>
     </div>
   );
 }

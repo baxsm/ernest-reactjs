@@ -7,7 +7,7 @@ const Welcome = () => {
   const text2Ref = useRef(null);
 
   return (
-    <div className="bg-white py-32">
+    <div className="bg-lightWhite py-32">
       <div className="flex flex-col justify-center place-items-center gap-4">
         <p className="text-grayText font-[500] text-lg uppercase">
           Welcome to Our Agency

@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Canela-Regular';
+    src: local('Canela-Regular'), url(../assets/Canela-Regular.ttf) format('ttf');
+}
+
 * {
     padding: 0;
     margin: 0;
