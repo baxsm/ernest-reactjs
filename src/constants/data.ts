@@ -1,0 +1,46 @@
+export const projects = [
+    {
+        id: 'op_1',
+        name: 'Opulence',
+        type: 'Photography',
+        hero: '/hero/hero1.jpg',
+        year: '2023'
+    },
+    {
+        id: 'sb_2',
+        name: 'Sound Blaster',
+        type: 'Design',
+        hero: '/hero/hero2.jpg',
+        year: '2023'
+    },
+    {
+        id: 'gc_3',
+        name: 'Green Case',
+        type: 'Photography, Inspiration',
+        hero: '/hero/hero3.jpg',
+        year: '2023'
+    },
+    {
+        id: 'tf_4',
+        name: 'Tshirt Factory',
+        type: 'Photography, Design',
+        hero: '/hero/hero4.jpg',
+        year: '2023'
+    },
+    {
+        id: 'pa_5',
+        name: 'Pulse App',
+        type: 'Inspiration, Design',
+        hero: '/hero/hero5.jpg',
+        year: '2023'
+    },
+    {
+        id: 'gm_6',
+        name: 'Gold Man',
+        type: 'Video',
+        hero: '/hero/hero6.jpg',
+        year: '2023'
+    }
+]
+
+export const WelcomeText = `We are trusted by over 28,000 clients to power stunning websites.`
