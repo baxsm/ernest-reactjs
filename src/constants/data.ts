@@ -79,3 +79,31 @@ export const clients = [
     image: "/client/client8.png",
   },
 ];
+
+export const socials = [
+  {
+    name: 'Instagram',
+    abb: 'In',
+    link: 'https://instagram.com',
+  },
+  {
+    name: 'Facebook',
+    abb: 'Fb',
+    link: 'https://facebook.com',
+  },
+  {
+    name: 'Behance',
+    abb: 'Be',
+    link: 'https://behance.com',
+  },
+  {
+    name: 'Twitter',
+    abb: 'Tw',
+    link: 'https://twitter.com',
+  },
+  {
+    name: 'Dribbble',
+    abb: 'Db',
+    link: 'https://dribbble.com',
+  },
+]
